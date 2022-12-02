@@ -9,26 +9,35 @@
     </head>
 
 
-    <body>
-        
+    <body>    
         <header class="header">
-            <h1>My new website</h1> <!---->
+            <nav>
+                <ul>
+                    <li><a href="#">github</a></li>
+                    <li><a href="#">portfolio</a></li>
+                    <li><a href="#">contact</a></li>
+                </ul>
+            </nav>
         </header>
 
-        <section>
+        <figure>
             <h1>My new website</h1> <!----> 
-            <img src ="#" alt="need an image here"> <!---->
-            <figcaption>there is meant to be an image</figcaption> <!---->
-        </section>
+            <img src ="./assets/images/image-1.png" alt="need an image here"> <!---->
+            <figcaption>Coming soon</figcaption> <!---->
+        </figure>
 
         <section class="template">
             <h2>contact me</h2>
-            <p>name</p>
-            <p>email</p>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="email">
+            </form>
         </section>
 
-        <section>
-
-        </section>
+        <footer>
+            <p>2022 My new Website Productions</p>
+        </footer>
     </body>
-</html>`
+</html>
