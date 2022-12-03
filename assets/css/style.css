@@ -1,15 +1,16 @@
 /*univeral Sector*/
 * {
     font-family: Verdana, garamond, "courier new"; /*font styles, intentional choose style distincted from each other*/
+    margin: 0;
+    padding: 0;
 }
 /* Element selector */
 body {
-text-align: center;
-list-style: none;
-margin: 0;
+    text-align: center;
+    background-color: #FDF8F5;
 }
 
-a{
+a {
     color: white;
     text-decoration: none;
 }
@@ -23,6 +24,15 @@ main {
     padding-top: 60px;
 }
 
+section {
+
+    padding: 20px 10px 40px 10px;
+    border-top: 3px solid #DDAF94;
+    background-color:  #E8CEBF;
+  }
+
+
+  
 /* class selector */
 .header {
     background-color: darkgreen;
@@ -32,9 +42,29 @@ main {
     height: 60px;
     width: 100%;
     border-bottom: 10px solid rgb(247 202 196);
+    line-height: 60px;
 }
-.contact {
+
+.footer {
+    background-color: darkgreen;
+    color: white;
+    line-height: 60px;
+    border-bottom: 10px solid darkgray;
+}
+
+.boarders {
+    border-radius: 20px;
+    border: 2px solid orange;
     display: block;
-    width: 100%;
-    background-color: rgb(247 202 196);
+    width: 500px;
+    padding: 10px;
 }
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+    text-align: right;
+  }
+  
